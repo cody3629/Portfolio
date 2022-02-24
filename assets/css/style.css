@@ -146,14 +146,16 @@ header nav ul li a:hover {
 }
 
 .projects-grid-wrapper {
-    width: 80%;
-    height: 500px;
-    display: flex;
-    justify-content: center;
+    max-width: 1200px;
+    margin: 30px auto 30px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
 .projects-grid {
-    width: 70%;
+    width: auto;
+    height: 500px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
@@ -170,6 +172,7 @@ header nav ul li a:hover {
     background-size: cover;
     background-position: center;
     opacity: 0.75;
+    font-size: large;
 }
 
 .project:hover {
