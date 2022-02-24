@@ -150,6 +150,7 @@ header nav ul li a:hover {
     margin: 30px auto 30px;
     display: grid;
     grid-gap: 10px;
+    align-items: center;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
@@ -288,6 +289,10 @@ footer ul li a:hover {
     header {
         justify-content: center;
         padding: 20px;
+    }
+
+    header h1 {
+        justify-content: center;
     }
 
     header nav ul {
