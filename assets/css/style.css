@@ -123,6 +123,7 @@ header nav ul li a:hover {
     justify-content: space-between;
     align-items: stretch;
     padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .about-me p {
@@ -143,6 +144,7 @@ header nav ul li a:hover {
 
 .my-work h2 {
     color: var(--secondary);
+    padding: 250px 0px 4px;
 }
 
 .projects-grid-wrapper {
@@ -275,6 +277,7 @@ footer ul li a:hover {
 
     .title h2 {
         font-size: 35px;
+        padding: 0;
     }
 
     .about-me p {
@@ -297,6 +300,8 @@ footer ul li a:hover {
 
     header nav ul {
         min-height: 80px;
+        justify-content: center;
+        padding: 0 30px 0 50px;
     }
 
     .hero {
@@ -333,9 +338,9 @@ footer ul li a:hover {
         padding: 10px;
     }
     
-    .projects-grid {
+    /* .projects-grid {
         width: 80%;
-    }
+    } */
 
     footer {
         flex-direction: column;
@@ -353,4 +358,6 @@ footer ul li a:hover {
         padding: 10px;
         text-align: center;
     }
+    
+    
 }
